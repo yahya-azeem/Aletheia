@@ -1,0 +1,41 @@
+# Aletheia ─ Tiny Debug Config (~1M params, CPU-friendly)
+model:
+  name: aletheia-tiny
+  num_layers: 4
+  hidden_dim: 128
+  num_heads: 4
+  ffn_inner_dim: 512
+  max_seq_len: 256
+  vocab_size: 4000
+  dropout: 0.1
+
+vqvae:
+  codebook_size: 64
+  code_dim: 64
+  num_encoder_layers: 2
+  num_decoder_layers: 2
+  commitment_beta: 0.25
+  ema_decay: 0.99
+  dead_code_threshold: 2
+
+diffusion:
+  num_timesteps: 100
+  num_denoiser_layers: 4
+  schedule: cosine
+  sampling_steps: 10
+  sampling_method: ddim
+
+ebm:
+  num_layers: 2
+  hidden_dim: 128
+
+training:
+  batch_size: 4
+  max_seq_len: 256
+  learning_rate: 3.0e-4
+  weight_decay: 0.1
+  warmup_steps: 100
+  max_steps: 1000
+  gradient_accumulation: 1
+  precision: fp32          # CPU fallback
+  device: cpu

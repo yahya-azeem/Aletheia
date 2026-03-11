@@ -1,0 +1,54 @@
+{
+  "source_file": "\\tmp\\test_c.c",
+  "language": "c",
+  "valid": true,
+  "validation_errors": [],
+  "type_nodes": {
+    "type_0": {
+      "id": "type_0",
+      "name": "ℤ",
+      "kind": "atomic",
+      "components": []
+    },
+    "type_1": {
+      "id": "type_1",
+      "name": "⊤",
+      "kind": "atomic",
+      "components": []
+    }
+  },
+  "term_nodes": {
+    "term_square": {
+      "id": "term_square",
+      "name": "square",
+      "input_types": [],
+      "output_type": "type_0",
+      "source_span": [
+        2,
+        4
+      ]
+    },
+    "term_main": {
+      "id": "term_main",
+      "name": "main",
+      "input_types": [],
+      "output_type": "type_1",
+      "source_span": [
+        6,
+        8
+      ]
+    }
+  },
+  "edges": [
+    [
+      "term_square",
+      "type_0",
+      "output"
+    ],
+    [
+      "term_main",
+      "type_1",
+      "output"
+    ]
+  ]
+}

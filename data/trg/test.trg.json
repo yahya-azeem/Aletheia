@@ -1,0 +1,9 @@
+{
+  "source_file": "\\tmp\\test.hs",
+  "language": "haskell",
+  "valid": true,
+  "validation_errors": [],
+  "type_nodes": {},
+  "term_nodes": {},
+  "edges": []
+}

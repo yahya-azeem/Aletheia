@@ -1,0 +1,41 @@
+# Aletheia ─ 2B Parameter Config (Production Scale-Up)
+model:
+  name: aletheia-2b
+  num_layers: 32
+  hidden_dim: 2560
+  num_heads: 32
+  ffn_inner_dim: 10240
+  max_seq_len: 4096
+  vocab_size: 64000
+  dropout: 0.0
+
+vqvae:
+  codebook_size: 16384
+  code_dim: 256
+  num_encoder_layers: 8
+  num_decoder_layers: 8
+  commitment_beta: 0.25
+  ema_decay: 0.99
+  dead_code_threshold: 2
+
+diffusion:
+  num_timesteps: 1000
+  num_denoiser_layers: 16
+  schedule: cosine
+  sampling_steps: 50
+  sampling_method: ddim
+
+ebm:
+  num_layers: 4
+  hidden_dim: 2560
+
+training:
+  batch_size: 256
+  max_seq_len: 4096
+  learning_rate: 3.0e-4
+  weight_decay: 0.1
+  warmup_steps: 2000
+  max_steps: 1000000
+  gradient_accumulation: 8
+  precision: bf16
+  device: cuda

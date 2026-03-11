@@ -1,0 +1,32 @@
+# 300M Param Model Configuration (§1.1)
+# Primary target for development & Stage 2 pretraining
+
+model:
+  name: "bitlinear_300m"
+  layers: 24
+  hidden_dim: 1024
+  num_heads: 16
+  ffn_dim: 4096
+  vocab_size: 64000
+  max_seq_len: 2048
+  bits: 1.58  # Ternary weights {-1, 0, 1}
+
+vq_vae:
+  codebook_size: 8192
+  latent_dim: 256
+  commitment_beta: 0.25
+  decay: 0.99
+
+diffusion:
+  timesteps: 1000
+  beta_schedule: "cosine"
+  prediction_type: "x0"
+
+training:
+  batch_size: 64
+  grad_accum: 4
+  learning_rate: 3e-4
+  warmup_steps: 2000
+  weight_decay: 0.1
+  precision: "bf16"
+  hardware_target: "8x A100 80GB"

@@ -1,0 +1,79 @@
+{
+  "source_file": "\\tmp\\test_rs.rs",
+  "language": "rust",
+  "valid": true,
+  "validation_errors": [],
+  "type_nodes": {
+    "type_0": {
+      "id": "type_0",
+      "name": "ℤ₃₂",
+      "kind": "atomic",
+      "components": []
+    },
+    "type_1": {
+      "id": "type_1",
+      "name": "ℤ₃₂",
+      "kind": "atomic",
+      "components": []
+    },
+    "type_2": {
+      "id": "type_2",
+      "name": "ℤ₃₂",
+      "kind": "atomic",
+      "components": []
+    },
+    "type_3": {
+      "id": "type_3",
+      "name": "⊤",
+      "kind": "atomic",
+      "components": []
+    }
+  },
+  "term_nodes": {
+    "term_add": {
+      "id": "term_add",
+      "name": "add",
+      "input_types": [
+        "type_0",
+        "type_1"
+      ],
+      "output_type": "type_2",
+      "source_span": [
+        2,
+        4
+      ]
+    },
+    "term_hello": {
+      "id": "term_hello",
+      "name": "hello",
+      "input_types": [],
+      "output_type": "type_3",
+      "source_span": [
+        6,
+        8
+      ]
+    }
+  },
+  "edges": [
+    [
+      "type_0",
+      "term_add",
+      "input"
+    ],
+    [
+      "type_1",
+      "term_add",
+      "input"
+    ],
+    [
+      "term_add",
+      "type_2",
+      "output"
+    ],
+    [
+      "term_hello",
+      "type_3",
+      "output"
+    ]
+  ]
+}

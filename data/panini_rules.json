@@ -1,0 +1,170 @@
+{
+  "_meta": {
+    "description": "Syntactic/Morphological FST constraints for Project Aletheia Interlingua.",
+    "grounding_source": "Pāṇini's Aṣṭādhyāyī (4000 sūtras)",
+    "framework": "Kāraka system (1.4.23 to 1.4.55)",
+    "total_rules": 10
+  },
+  "rules": [
+    {
+      "id": "1.4.54",
+      "name": "kartā-kriyā",
+      "sutra_ref": "1.4.54",
+      "src_range": [
+        0,
+        512
+      ],
+      "tgt_range": [
+        512,
+        1024
+      ],
+      "relation": "agent-action",
+      "penalty": 0.0,
+      "description": "Standard agent to verb transition."
+    },
+    {
+      "id": "1.4.49",
+      "name": "karma-kriyā",
+      "sutra_ref": "1.4.49",
+      "src_range": [
+        1024,
+        1536
+      ],
+      "tgt_range": [
+        512,
+        1024
+      ],
+      "relation": "object-action",
+      "penalty": 0.0,
+      "description": "Standard object to verb transition."
+    },
+    {
+      "id": "1.4.42",
+      "name": "karaṇa-kriyā",
+      "sutra_ref": "1.4.42",
+      "src_range": [
+        1536,
+        2048
+      ],
+      "tgt_range": [
+        512,
+        1024
+      ],
+      "relation": "instrument-action",
+      "penalty": 0.0,
+      "description": "Standard instrument to verb transition."
+    },
+    {
+      "id": "1.4.32",
+      "name": "sampradāna-kriyā",
+      "sutra_ref": "1.4.32",
+      "src_range": [
+        2048,
+        2564
+      ],
+      "tgt_range": [
+        512,
+        1024
+      ],
+      "relation": "recipient-action",
+      "penalty": 0.0,
+      "description": "Standard recipient to verb transition."
+    },
+    {
+      "id": "1.4.24",
+      "name": "apādāna-kriyā",
+      "sutra_ref": "1.4.24",
+      "src_range": [
+        2564,
+        3076
+      ],
+      "tgt_range": [
+        512,
+        1024
+      ],
+      "relation": "source-action",
+      "penalty": 0.0,
+      "description": "Standard source to verb transition."
+    },
+    {
+      "id": "1.4.45",
+      "name": "adhikaraṇa-kriyā",
+      "sutra_ref": "1.4.45",
+      "src_range": [
+        3076,
+        3584
+      ],
+      "tgt_range": [
+        512,
+        1024
+      ],
+      "relation": "locus-action",
+      "penalty": 0.0,
+      "description": "Standard locus to verb transition."
+    },
+    {
+      "id": "forbidden-1",
+      "name": "kartā-karma-direct",
+      "sutra_ref": "forbidden-1",
+      "src_range": [
+        0,
+        512
+      ],
+      "tgt_range": [
+        1024,
+        1536
+      ],
+      "relation": "direct-object-jump",
+      "penalty": 1.8,
+      "description": "Penalize direct agent-object jump without intervening action node."
+    },
+    {
+      "id": "forbidden-2",
+      "name": "double-kartā",
+      "sutra_ref": "forbidden-2",
+      "src_range": [
+        0,
+        512
+      ],
+      "tgt_range": [
+        0,
+        512
+      ],
+      "relation": "agreement-conflict",
+      "penalty": 2.0,
+      "description": "Penalize redundant agent transitions."
+    },
+    {
+      "id": "6.1.77",
+      "name": "eco-ayavayāvaḥ",
+      "sutra_ref": "6.1.77",
+      "src_range": [
+        3588,
+        3800
+      ],
+      "tgt_range": [
+        3800,
+        4000
+      ],
+      "relation": "phonological-merge",
+      "penalty": 0.1,
+      "description": "Phonological transition indicating vowel sandhi merge."
+    },
+    {
+      "id": "8.4.53",
+      "name": "consonant-sandhi",
+      "sutra_ref": "8.4.53",
+      "src_range": [
+        4000,
+        4200
+      ],
+      "tgt_range": [
+        4200,
+        4400
+      ],
+      "relation": "consonant-assimilation",
+      "penalty": 0.1,
+      "description": "Phonological transition indicating consonant assimilation."
+    }
+  ]
+}

@@ -1,0 +1,741 @@
+{
+  "_meta": {
+    "description": "Arabic trilateral (jadhr) root lexicon for Project Aletheia's Latent Interlingua.",
+    "grounding_sources": [
+      "Lane's Arabic-English Lexicon (Classical)",
+      "Quranic Arabic Corpus (Morphological Annotation)",
+      "Hans Wehr (Modern Written)",
+      "Ibn Kathir/Al-Jalalayn Tafsir (Semantic context)"
+    ],
+    "total_count": 81
+  },
+  "ك-ت-ب": {
+    "id": 0,
+    "meaning": "To prescribe, write, decree",
+    "domain": "epistemology",
+    "scholarly_basis": [
+      "Lane v7, p2583",
+      "Quran 2:183"
+    ]
+  },
+  "ع-ل-م": {
+    "id": 1,
+    "meaning": "To know, perceive, have knowledge",
+    "domain": "knowledge",
+    "scholarly_basis": [
+      "Lane v5, p2131",
+      "Quran 96:5"
+    ]
+  },
+  "ق-ر-أ": {
+    "id": 2,
+    "meaning": "To read, recite, gather together",
+    "domain": "communication",
+    "scholarly_basis": [
+      "Lane v6, p2502",
+      "Quran 96:1"
+    ]
+  },
+  "ق-و-ل": {
+    "id": 3,
+    "meaning": "To say, speak, utter",
+    "domain": "communication",
+    "scholarly_basis": [
+      "Lane v7, p2554",
+      "Quran 33:70"
+    ]
+  },
+  "ف-ق-ه": {
+    "id": 4,
+    "meaning": "To understand, comprehend (depth)",
+    "domain": "intellect",
+    "scholarly_basis": [
+      "Lane v6, p2428",
+      "Quran 9:122"
+    ]
+  },
+  "ن-ظ-ر": {
+    "id": 5,
+    "meaning": "To look, observe, consider, theorize",
+    "domain": "perception",
+    "scholarly_basis": [
+      "Lane v8, p2812",
+      "Quran 88:17"
+    ]
+  },
+  "ع-ق-ل": {
+    "id": 6,
+    "meaning": "To tie, bind, restrain, reason",
+    "domain": "intellect",
+    "scholarly_basis": [
+      "Lane v5, p2113",
+      "Quran 2:44"
+    ]
+  },
+  "ف-ك-ر": {
+    "id": 7,
+    "meaning": "To think, reflect, meditate",
+    "domain": "intellect",
+    "scholarly_basis": [
+      "Lane v6, p2438",
+      "Quran 10:24"
+    ]
+  },
+  "ح-ك-م": {
+    "id": 8,
+    "meaning": "To judge, be wise, restrain",
+    "domain": "wisdom",
+    "scholarly_basis": [
+      "Lane v2, p616",
+      "Quran 31:12"
+    ]
+  },
+  "ص-د-ق": {
+    "id": 9,
+    "meaning": "To be truthful, sincere, confirm",
+    "domain": "ethics",
+    "scholarly_basis": [
+      "Lane v4, p1667",
+      "Quran 33:24"
+    ]
+  },
+  "ب-ي-ن": {
+    "id": 10,
+    "meaning": "To be clear, distinct, explain",
+    "domain": "epistemology",
+    "scholarly_basis": [
+      "Lane v1, p288",
+      "Quran 55:4"
+    ]
+  },
+  "ح-ق-ق": {
+    "id": 11,
+    "meaning": "To be true, right, just, realized",
+    "domain": "truth",
+    "scholarly_basis": [
+      "Lane v2, p605",
+      "Quran 22:62"
+    ]
+  },
+  "ص-ل-ح": {
+    "id": 12,
+    "meaning": "To be good, right, honest, reform",
+    "domain": "ethics",
+    "scholarly_basis": [
+      "Lane v4, p1714",
+      "Quran 2:11"
+    ]
+  },
+  "ع-د-ل": {
+    "id": 13,
+    "meaning": "To be just, equitable, balance",
+    "domain": "justice",
+    "scholarly_basis": [
+      "Lane v5, p1972",
+      "Quran 16:90"
+    ]
+  },
+  "ر-ح-م": {
+    "id": 14,
+    "meaning": "To be merciful, compassionate",
+    "domain": "emotion",
+    "scholarly_basis": [
+      "Lane v3, p1055",
+      "Quran 1:1"
+    ]
+  },
+  "س-ل-م": {
+    "id": 15,
+    "meaning": "To be safe, secure, submit, peace",
+    "domain": "social",
+    "scholarly_basis": [
+      "Lane v4, p1412",
+      "Quran 2:208"
+    ]
+  },
+  "و-ف-ي": {
+    "id": 16,
+    "meaning": "To be faithful, fulfill (pledge)",
+    "domain": "ethics",
+    "scholarly_basis": [
+      "Lane v8, p3051",
+      "Quran 5:1"
+    ]
+  },
+  "خ-ل-ص": {
+    "id": 17,
+    "meaning": "To be pure, sincere, exclusive",
+    "domain": "ethics",
+    "scholarly_basis": [
+      "Lane v2, p785",
+      "Quran 39:2"
+    ]
+  },
+  "ش-ه-د": {
+    "id": 18,
+    "meaning": "To witness, testify, attend",
+    "domain": "legal",
+    "scholarly_basis": [
+      "Lane v4, p1608",
+      "Quran 2:185"
+    ]
+  },
+  "أ-م-ن": {
+    "id": 19,
+    "meaning": "To be safe, trust, believe",
+    "domain": "faith",
+    "scholarly_basis": [
+      "Lane v1, p100",
+      "Quran 2:3"
+    ]
+  },
+  "ك-ف-ل": {
+    "id": 20,
+    "meaning": "To guarantee, sponsor, feed",
+    "domain": "social",
+    "scholarly_basis": [
+      "Lane v7, p2631",
+      "Quran 38:23"
+    ]
+  },
+  "خ-ل-ق": {
+    "id": 21,
+    "meaning": "To create, measure, fashion",
+    "domain": "creation",
+    "scholarly_basis": [
+      "Lane v2, p800",
+      "Quran 2:164"
+    ]
+  },
+  "ف-ط-ر": {
+    "id": 22,
+    "meaning": "To split, originate, create",
+    "domain": "creation",
+    "scholarly_basis": [
+      "Lane v6, p2415",
+      "Quran 30:30"
+    ]
+  },
+  "س-م-و": {
+    "id": 23,
+    "meaning": "To be high, sublime, sky",
+    "domain": "cosmology",
+    "scholarly_basis": [
+      "Lane v4, p1448",
+      "Quran 2:22"
+    ]
+  },
+  "أ-ر-ض": {
+    "id": 24,
+    "meaning": "To be firm, earth, land",
+    "domain": "cosmology",
+    "scholarly_basis": [
+      "Lane v1, p48",
+      "Quran 2:22"
+    ]
+  },
+  "ن-و-ر": {
+    "id": 25,
+    "meaning": "To give light, illuminate",
+    "domain": "light",
+    "scholarly_basis": [
+      "Lane v8, p2863",
+      "Quran 24:35"
+    ]
+  },
+  "ح-ي-ي": {
+    "id": 26,
+    "meaning": "To live, revitalize",
+    "domain": "life",
+    "scholarly_basis": [
+      "Lane v2, p680",
+      "Quran 2:28"
+    ]
+  },
+  "م-و-ت": {
+    "id": 27,
+    "meaning": "To die, be still",
+    "domain": "death",
+    "scholarly_basis": [
+      "Lane v7, p2739",
+      "Quran 2:28"
+    ]
+  },
+  "ف-ع-ل": {
+    "id": 28,
+    "meaning": "To do, act, perform",
+    "domain": "action",
+    "scholarly_basis": [
+      "Lane v6, p2421",
+      "Quran 16:50"
+    ]
+  },
+  "ج-ع-ل": {
+    "id": 29,
+    "meaning": "To make, place, appoint",
+    "domain": "action",
+    "scholarly_basis": [
+      "Lane v2, p430",
+      "Quran 2:30"
+    ]
+  },
+  "ذ-ه-ب": {
+    "id": 30,
+    "meaning": "To go, take away",
+    "domain": "motion",
+    "scholarly_basis": [
+      "Lane v3, p983",
+      "Quran 2:20"
+    ]
+  },
+  "ج-ي-ء": {
+    "id": 31,
+    "meaning": "To come, bring",
+    "domain": "motion",
+    "scholarly_basis": [
+      "Lane v2, p490",
+      "Quran 110:1"
+    ]
+  },
+  "أ-ت-ي": {
+    "id": 32,
+    "meaning": "To come, bring, arrive",
+    "domain": "motion",
+    "scholarly_basis": [
+      "Lane v1, p19",
+      "Quran 16:1"
+    ]
+  },
+  "ن-ز-ل": {
+    "id": 33,
+    "meaning": "To descend, reveal",
+    "domain": "revelation",
+    "scholarly_basis": [
+      "Lane v8, p2798",
+      "Quran 2:23"
+    ]
+  },
+  "ر-س-ل": {
+    "id": 34,
+    "meaning": "To send (messenger/flow)",
+    "domain": "communication",
+    "scholarly_basis": [
+      "Lane v3, p1080",
+      "Quran 33:40"
+    ]
+  },
+  "ر-ب-ب": {
+    "id": 35,
+    "meaning": "To be lord, master, foster",
+    "domain": "theology",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "إ-ل-ه": {
+    "id": 36,
+    "meaning": "To be deity, worshipped",
+    "domain": "theology",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "و-ح-د": {
+    "id": 37,
+    "meaning": "To be one, alone, unique",
+    "domain": "theology",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "ش-ر-ك": {
+    "id": 38,
+    "meaning": "To associate, partner",
+    "domain": "theology",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "ك-ف-ر": {
+    "id": 39,
+    "meaning": "To cover, disbelieve, ingrate",
+    "domain": "theology",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "ذ-ن-ب": {
+    "id": 40,
+    "meaning": "To sin, follow tail-end",
+    "domain": "ethics",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "و-ز-ر": {
+    "id": 41,
+    "meaning": "To bear burden, sin",
+    "domain": "ethics",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "غ-ف-ر": {
+    "id": 42,
+    "meaning": "To cover, forgive, protect",
+    "domain": "theology",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "ع-ف-و": {
+    "id": 43,
+    "meaning": "To pardon, efface, excess",
+    "domain": "ethics",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "ت-و-ب": {
+    "id": 44,
+    "meaning": "To return, repent",
+    "domain": "theology",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "ه-د-ي": {
+    "id": 45,
+    "meaning": "To guide, show way",
+    "domain": "theology",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "ض-ل-ل": {
+    "id": 46,
+    "meaning": "To go astray, lose way",
+    "domain": "theology",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "ن-ب-أ": {
+    "id": 47,
+    "meaning": "To inform, news-giving",
+    "domain": "communication",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "ب-ش-ر": {
+    "id": 48,
+    "meaning": "To give glad tidings, skin",
+    "domain": "communication",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "ص-ل-و": {
+    "id": 49,
+    "meaning": "To pray, bless, connect",
+    "domain": "theology",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "ز-ك-و": {
+    "id": 50,
+    "meaning": "To grow, purify",
+    "domain": "theology",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "ح-ج-ج": {
+    "id": 51,
+    "meaning": "To dispute, pilgrimage",
+    "domain": "social",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "ص-و-م": {
+    "id": 52,
+    "meaning": "To abstain, fast",
+    "domain": "theology",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "ج-ه-د": {
+    "id": 53,
+    "meaning": "To strive, exert effort",
+    "domain": "social",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "ن-ص-ر": {
+    "id": 54,
+    "meaning": "To help, aid, victory",
+    "domain": "social",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "خ-ذ-ل": {
+    "id": 55,
+    "meaning": "To desert, fail to help",
+    "domain": "social",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "و-ل-ي": {
+    "id": 56,
+    "meaning": "To be near, friend, patron",
+    "domain": "social",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "ع-د-و": {
+    "id": 57,
+    "meaning": "To transgress, enemy",
+    "domain": "social",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "ب-غ-ي": {
+    "id": 58,
+    "meaning": "To seek, oppress, rebel",
+    "domain": "social",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "ف-س-د": {
+    "id": 59,
+    "meaning": "To be corrupt, spoil",
+    "domain": "social",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "إ-ث-م": {
+    "id": 60,
+    "meaning": "To sin, be slow",
+    "domain": "ethics",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "ر-ي-ب": {
+    "id": 61,
+    "meaning": "To doubt, disquiet",
+    "domain": "intellect",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "ظ-ن-ن": {
+    "id": 62,
+    "meaning": "To surmise, think",
+    "domain": "intellect",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "يقن": {
+    "id": 63,
+    "meaning": "To be certain",
+    "domain": "intellect",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "ف-ل-ح": {
+    "id": 64,
+    "meaning": "To succeed, thrive",
+    "domain": "social",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "س-ع-د": {
+    "id": 65,
+    "meaning": "To be happy, fortunate",
+    "domain": "emotion",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "ش-ق-ي": {
+    "id": 66,
+    "meaning": "To be miserable, distressed",
+    "domain": "emotion",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "غ-ن-ي": {
+    "id": 67,
+    "meaning": "To be rich, free from want",
+    "domain": "economy",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "ف-ق-ر": {
+    "id": 68,
+    "meaning": "To be poor, needy",
+    "domain": "economy",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "ر-ز-ق": {
+    "id": 69,
+    "meaning": "To provide, sustain",
+    "domain": "economy",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "ن-ف-ق": {
+    "id": 70,
+    "meaning": "To spend, pass away",
+    "domain": "economy",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "ش-ر-ي": {
+    "id": 71,
+    "meaning": "To buy, sell",
+    "domain": "economy",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "ب-ي-ع": {
+    "id": 72,
+    "meaning": "To sell, pledge",
+    "domain": "economy",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "ر-ب-ح": {
+    "id": 73,
+    "meaning": "To profit",
+    "domain": "economy",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "خ-س-ر": {
+    "id": 74,
+    "meaning": "To lose",
+    "domain": "economy",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "ك-س-ب": {
+    "id": 75,
+    "meaning": "To earn",
+    "domain": "economy",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "ح-ر-م": {
+    "id": 76,
+    "meaning": "To forbid, sacred",
+    "domain": "legal",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "ح-ل-ل": {
+    "id": 77,
+    "meaning": "To permit, untie",
+    "domain": "legal",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "ن-ك-ح": {
+    "id": 78,
+    "meaning": "To marry",
+    "domain": "legal",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "ط-ل-ق": {
+    "id": 79,
+    "meaning": "To release, divorce",
+    "domain": "legal",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  },
+  "و-ر-ث": {
+    "id": 80,
+    "meaning": "To inherit",
+    "domain": "legal",
+    "scholarly_basis": [
+      "Quranic Arabic Corpus",
+      "Lane's Lexicon"
+    ]
+  }
+}

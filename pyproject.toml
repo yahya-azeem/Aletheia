@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aletheia"
+version = "0.1.0"
+description = "1-Bit Non-Autoregressive Foundation Model with a Semantic Interlingua"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+
+dependencies = [
+    "torch>=2.2",
+    "sentencepiece>=0.2",
+    "networkx>=3.2",
+    "datasets>=2.16",
+    "requests>=2.31",
+    "beautifulsoup4>=4.12",
+    "langdetect>=1.0",
+    "pyyaml>=6.0",
+    "tqdm>=4.66",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=4.1",
+    "ruff>=0.3",
+]
+scraping = [
+    "internetarchive>=4.0",
+]
+verification = [
+    "auto_LiRPA>=0.5",
+]
+all = ["aletheia[dev,scraping,verification]"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["aletheia*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
