@@ -1,0 +1,39 @@
+name: Data Generation (Museum Grade)
+
+on:
+  schedule:
+    - cron: '0 0 * * 0' # Weekly on Sunday
+  workflow_dispatch: # Manual trigger
+
+jobs:
+  regenerate-corpus:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install -e ".[all]"
+          pip install bs4 requests langdetect lxml
+
+      - name: Regenerate Classical Corpus
+        run: |
+          python -c "from aletheia.data.classical_scraper import scrape_all_classical; scrape_all_classical()"
+
+      - name: Regenerate Technical Corpus
+        run: |
+          python -c "from aletheia.data.technical_ingestor import run_all_technical; run_all_technical()"
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "Aletheia Bot"
+          git config --global user.email "bot@aletheia.io"
+          git add data/**/*.jsonl
+          git commit -m "chore: automated data regeneration [skip ci]" || echo "No changes to commit"
+          git push
